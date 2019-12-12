@@ -1,4 +1,5 @@
 # Index des exercices
+Exercices de CSS avec Bootstrap pour le M2
 ## Exercice 1
 Lien vers [l'exercice 1](ex1.html)
 ## Exercice 2
