@@ -48,7 +48,13 @@ nav {
     font-family: 'Baskervville', serif;
 }
 
-.sous-titre {
-    font-style: italic;
-    color: rgba(0, 0, 0, 0.6);
+/*Exercice 4*/
+
+.subtitle{
+	font-size: 0.9em;
+    color: #ABB1B3; 
+}
+
+label{
+	font-weight: bold;
 }
