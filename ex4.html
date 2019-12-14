@@ -26,7 +26,7 @@
   <!-- Exercice -->
   <h2>Réalisation</h2>
   <!-- navbar -->
-  <nav class="navbar" style="background-color: #343A40;">
+  <nav class="navbar fixed-top" style="background-color: #343A40;">
         <a class="navbar-brand" style="color: white;">Pandora Post-Correction Editor</a>
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
@@ -42,29 +42,29 @@
                 <h1>Create a new corpus</h1>
                 <form>
                     <div class="form-group">
-                        <label for="exampleFormControlInput1">Corpus name</label>
-                        <input class="form-control" id="exampleFormControlInput1" placeholder="Enter name of the corpus">
+                        <label for="name">Corpus name</label>
+                        <input class="form-control" id="name" placeholder="Enter name of the corpus">
                         <p class="subtitle">This should be a clear name</p>
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlSelect1">Tokens (as TSV content)</label>
+                        <label for="file">Tokens (as TSV content)</label>
                         <p class="subtitle">The TSV should at least have the headers : lemma, POS, morph, form</p>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" id="file" rows="3"></textarea>
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlSelect1">Allowed lemma</label>
+                        <label for="lemma">Allowed lemma</label>
                         <p class="subtitle">This should be formatted a list of lemma seperated by new line</p>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" id="lemma" rows="3"></textarea>
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlSelect1">Allowed POS</label>
+                        <label for="POS">Allowed POS</label>
                         <p class="subtitle">This should be formatted as a list of POS separated by comma and no space</p>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" id="POS" rows="3"></textarea>
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlSelect1">Allowed Morph (as TSV content)</label>
+                        <label for="morph">Allowed Morph (as TSV content)</label>
                         <p class="subtitle">The TSV should at least have the header : label and could have a readable column for human</p>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" id="morph" rows="3"></textarea>
                     </div>
                     <button type="button" class="btn btn-primary btn-sm">Submit</button>
                 </form>
@@ -72,3 +72,4 @@
         </div>
     </div>
 </body>
+</html>
